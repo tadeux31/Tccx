@@ -1,0 +1,265 @@
+/*HEADER*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.header {
+  overflow: hidden;
+  background: #FFF;
+  box-shadow: 0 3px 5px rgba(60, 63, 72, 0.3);
+  position:fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  margin-bottom: 0px;
+}
+
+.header a {
+  float: left;
+  color: #272727;
+  text-align: center;
+  padding: 12px;
+  font-family:'Josefin Sans',sans-serif;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 27px;
+
+}
+
+.header a:hover {
+  color: #FF914D;
+  text-decoration: none;
+}
+
+.header-direita {
+  float: right;
+  padding-right: 35px;
+    line-height: 50px;
+      display: inline-block;
+      margin-left: 50px;
+      padding-top: .8em;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    text-align: center;
+  }
+  
+  .header-direita {
+    float: none;
+  }
+}
+
+.logo img{
+  height: 44px;
+    width: auto;
+     padding-left: 25px;
+
+}
+
+/* CORPO */
+
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    
+    background: url('../BancoImagens/login.png')no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.form-box{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: #FFF;
+    box-shadow: 0 0 20px #FF914D;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+h2{
+    font-size: 2em;
+    color: #363434;
+    text-align: center;
+    font-family:'Josefin Sans',sans-serif;
+    font-weight: 400;
+}
+.inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #667;
+    display: flex;
+   align-items: center;
+}
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #272727;
+    font-size: 1em;
+    font-family:'Josefin Sans',sans-serif;
+    font-weight: 300;
+    pointer-events: none;
+    transition: .5s;
+}
+input:focus ~ label,
+input:valid ~ label{
+top: -5px;
+}
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+    color: #667;
+}
+.inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+    color: #667;
+    font-size: 1.2em;
+    top: 20px;
+}
+
+.inputbox img{
+  width: 20px;
+  margin-right:10px;
+  cursor: pointer;
+}
+
+.forget{
+    margin: -15px 0 15px ;
+    font-size: .9em;
+    color: #667;
+    display: flex;
+    justify-content: space-between;
+    font-family:'Josefin Sans',sans-serif;
+    font-weight:300;
+
+}
+
+.checkmark {
+  position: absolute;
+  margin: -5px -27px;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+.container input:checked ~ .checkmark {
+  background-color: #47914c;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.input {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #FF914D;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff;
+     font-family:'Josefin Sans',sans-serif;
+    font-weight: 600;
+}
+ .input:hover{
+  transform: scale(0.95);
+  background: linear-gradient(-135deg, #2c0058, #ff914d);
+  }
+.register{
+    font-size: .9em;
+    color: #667;
+    text-align: center;
+    margin: 25px 0 10px;
+    font-family:'Josefin Sans',sans-serif;
+    font-weight: 400;
+}
+.register p a{
+    text-decoration: none;
+    color: #667;
+    font-family:'Josefin Sans',sans-serif;
+    font-weight:400;
+}
+.register p a:hover{
+    text-decoration: underline;
+    color: #667;
+}
+
+/* FOOTER*/ 
+
+.site-footer
+{
+  padding:45px 0 20px;
+  font-size:12px;
+  color:#e1e4e8;
+  bottom: 0;
+  position: fixed;
+  width: 300%;
+  font-family:'Josefin Sans',sans-serif;
+    font-weight:300;
+}
+.site-footer hr
+{
+  margin-top: 1px;
+  border-top-color:#e1e4e8;
+  opacity:0.5;
+}
+
+.copyright-text
+{
+  margin:-7px;
+  margin-left:380px;
+  
+}
+
+.copyright-text img{
+ height: 25px;
+ width: auto;
+ color:#fff;
+
+}
+
+@media (min-width:767px)
+{  .site-footer .copyright-text
+  {
+    margin-left: 8000px;
+    align-items: center;
+    justify-content: center; 
+    width:300%; }
+}

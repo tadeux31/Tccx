@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../css/contatus.css">
+	<script type="text/javascript" src="../javainicio/java.js"></script>
+	<link rel="icon" type="image/png" href="../imgs/icona.svg"/>
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
+
+	<title>Contato</title>
+</head>
+<body>
+
+
+
+<!--Cabeçalho-->
+<header>
+    <div class="header">
+      <a href="pinicial.html" class="logo"><img src="../imgs/loginho.png" alt="Logo da empresa"></a>
+      <div class="header-direita">
+      </div>
+    </div>
+    </header>
+  
+
+    <script type="text/javascript">
+        var lastScrollTop = 0;
+            navbar = document.getElementById ("navbar");
+            window.addEventListener ("scroll",function(){ var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+              if (scrollTop > lastScrollTop){
+                navbar.style.top="-50px";
+              } else {
+                 navbar.style.top="0";
+              }
+              lastScrollTop = scrollTop;
+          })
+    </script>
+
+	</header>
+<!--Corpo -->
+
+
+<div class="container" >
+
+
+    <div class="corpo1">
+    <h2>Entre em contato conosco</h2><br>
+
+    <p> Através desta página, faça perguntas pertinentes ao site, buscando solucionar problemas encontrados dentro dele. Caso não haja nenhuma resposta na <a href="faq.html">FAQ</a> que ajude a solucionar, entre em contato imediatamente sendo o mais breve possivel. Entraremos em contato em até 24H.</p>
+    <br>
+    <h2>Exemplos:</h2><br>
+    <p>- Problemas com o site ou funcionalidade;</p>
+      <p>- Peoblemas com serviços;</p>
+      <p>- Problemas com o empregador; </p>
+      <p>- Problemas com a qualidade do serviço;</p>
+      <p>- Porpaganda enganosa;</p>
+      <br>
+    
+      
+
+    <!--Fale Conosco-->
+  
+   
+
+  
+      
+
+          <div class="Formcontato">
+            <form action="../../Conatatenos/enviar2f.php" method="post" name="cont_teste" id="cont_teste">
+                <h2>Através de email :</h2> <br>
+              <div class="inputBox">
+                <input type="text" name="nome" maxlength="45"required="required">
+                  <span>Nome Completo</span>
+              </div>
+              <div class="inputBox">
+                <input type="email" name="email" required="required">
+                  <span>Email</span>
+              </div>
+              <div class="inputBox">
+                <input type="text" name="tituloemail" required="required">
+                <span>Titulo</span>
+
+              </div>
+              <div class="inputBox">
+                  <textarea name="mensagem" required="required"></textarea>
+                  <span>Escreva sua mensagem aqui...</span>
+              </div>
+              <div class="inputBox">
+                <input type="submit" name="submit" value="Enviar">
+              </div>
+            </form>
+            <br>
+
+            <h2>Redes sociais:</h2> <br>
+
+
+            <div class="Infocontato">
+                <div class="box">
+                  <A href="https://www.instagram.com/tucas_enterprise/" target="_blank"><div class="icon"><img src="../imgs/logoinsta.png"></div></A>
+                  <div class="text">
+                    <h3>Instagram</h3>
+                    <p>@tucas_enterprise</p>
+                      </div>
+                    </div>
+        
+                    <div class="box">
+                      <a href="https://discord.com/" target="_blank"><div class="icon"><img src="../imgs/logodisc.png"></div></a>
+                      <div class="text">
+                         <h3>Discord</h3>
+                         <p>@tucas_enterprise</p>
+                      </div>
+                    </div>
+                    <div class="box">
+                      <a href="https://www.facebook.com/rafaelsousaguedes?mibextid=ZbWKwL" target="_blank"><div class="icon"><img src="../imgs/logoface.png"></div></a>
+                    <div class="text">
+                      <h3>Facebook</h3>
+                      <p>@tucas_enterprise</p>
+                        </div>
+                      </div>
+                  </div>
+                  
+        
+      
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+ 
+  </div>
+  </div>
+
+
+
+</div></div>
+
+<!---Fim do corpo--> 
+
+<!--Rodapé-->
+<!--"col-sm-12 col-md-6" ->Bootstrap-->
+<footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <br>
+      <hr>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text"><img src="../imgs/logow2.png"> &copy; 2023 Todos os direitos reservados por <a href="#">Tucas Enterprise</a> 
+          </p>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <ul class="social-icons">
+            <li><a class="facebook" href="#"><img src="..//imgs/logoface.png"></a></li>
+            <li><a class="discord"><img src="..//imgs/logodisc.png"></a></li>
+            <li><a class="instagram" href="https://www.instagram.com/tucas_enterprise/" target="_blank"><img src="..//imgs/logoinsta.png"></a></li> 
+          </ul>
+        </div>
+      </div>
+    </div>
+</footer>
+
+
+	
+</main>
+</body>
+</html>

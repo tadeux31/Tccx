@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="../BancoImagens/logow4.png"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="../Css/loginemp.css">
+  
+  <title>Login Empresa</title>
+</head>
+<body>
+    <header>
+    <div class="header">
+        <a href="../../PaginaInicialLogada/php/pinilog.php" class="logo"><img src="../BancoImagens/loginho.png" alt="Logo da empresa"></a>
+    <div class="header-direita">
+        <a href="../../Login/html/plogin.html" id="bt-cadastro">Login Usuário</a>
+    </div>
+    </div>
+    </header>
+
+    <section>
+        <div class="form-box">
+            <div class="form-value">
+                <form action="../../Corp/php/loginemp.php" method="post">
+                    <h2>Bem Vindo de Volta!</h2>
+                    <div class="inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="text" name="email"required>
+                        <label for="">Email</label>
+                    </div>
+                    <div class="inputbox">
+                        <input input type="password" id="senha" name="password" required>
+                        <label for="">Senha</label>
+                        <img src="../BancoImagens/eye-close.png" id="eyeicon">
+                    </div>
+                    <script>
+                     let eyeicon = document.getElementById("eyeicon");
+                    let senha = document.getElementById("senha");
+
+                    eyeicon.onclick = function(){
+                          if (senha.type == "password") {
+                          senha.type = "text";
+                          eyeicon.src = "../BancoImagens/eye-open.png";
+                    }else{
+                        senha.type = "password";
+                        eyeicon.src = "../BancoImagens/eye-close.png";
+                } 
+            }
+          </script>
+
+                    <div class="forget">
+                        <label class="container">
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>Lembrar de mim
+                             </label>
+                      
+                    </div>
+                    <input type="submit" name="Entrar" value="Entrar" class="input">
+                    <div class="register">
+                        <p>Não tem uma conta de usuário? <a href="/Ap.Final/Cadastro/html/pcad.html";>Clica aqui!</a></p>
+                         <a  href="/Ap.Final/Esqueci/esqueci.php">Esqueci a Senha</a>
+                    </div>  
+                </form> 
+            </div>
+        </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<!--Rodapé-->
+<!--"col-sm-12 col-md-6" ->Bootstrap-->
+  <footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-sm-6 col-xs-12">
+      <p class="copyright-text"><img src="../BancoImagens/logow3.png"> &copy; 2023 Todos os direitos reservados por Tucas Enterprise</p> 
+       </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

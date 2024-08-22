@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+html{
+	scroll-snap-type: x mandatory;
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+    background: rgb(19,19,19);
+    background: radial-gradient(circle at 10% 20%, rgb(14, 13, 13) 0%, rgb(27, 27, 27) 90.2%);
+    background-position: center;
+    background-size: cover;
+	font-family: 'Josefin Sans',sans-serif;
+}
+
+.caixa{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: #FFF;
+    box-shadow: 0 0 20px #FF914D;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:40px;
+
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -120px;
+    margin-top: 100px;
+    margin: 20px;
+}
+img{
+    height: 65px;
+    width: auto;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+h1{
+    font-size: 2em;
+    color: #363434;
+    font-family:'Josefin Sans',sans-serif;
+    font-weight: 400;
+}
+
+.enviar{
+text-align: center;
+}
+
+p{
+   font-size: 14px; 
+}
+
+a{
+    font-size: 15px;
+    color: #FF914D;
+    font-family:'Josefin Sans',sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #667;
+    display: flex;
+   align-items: center;
+}
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #272727;
+    font-size: 1em;
+    font-family:'Josefin Sans',sans-serif;
+    font-weight: 300;
+    pointer-events: none;
+    transition: .5s;
+}
+input:focus ~ label,
+input:valid ~ label{
+top: -5px;
+}
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+    color: #667;
+}
+
+
+.input {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #FF914D;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff;
+     font-family:'Josefin Sans',sans-serif;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+ .input:hover{
+  transform: scale(0.95);
+  background: #f0772c;
+  }

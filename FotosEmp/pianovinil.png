@@ -1,0 +1,86 @@
+="FeaturesOnDemand\sr-latn-rs\cabs\Microsoft-Windows-RasRip-Package~31bf3856ad364e35~amd64~sr-latn-rs~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="Microsoft-Windows-RemoteAccess-Management-Tools-FoD-Package~31bf3856ad364e35~amd64~sr-latn-rs~" InstalledSize="18490903" Version="10.0.19041.1">
+      <SatelliteInfo>
+        <ApplyToInfo>
+          <ApplyTo Type="language" Value="sr-Latn-RS" />
+        </ApplyToInfo>
+      </SatelliteInfo>
+      <Payload>
+        <PayloadItem PayloadHash="yc2GHYv1OjFfmq+q/7u8Q6MlcqWr3EgdfGsI8P3eJmI=" PayloadSize="4005842" Path="FeaturesOnDemand\sr-latn-rs\cabs\Microsoft-Windows-RemoteAccess-Management-Tools-FoD-Package~31bf3856ad364e35~amd64~sr-latn-rs~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="Microsoft-Windows-RemoteAccess-Management-Tools-FoD-Package~31bf3856ad364e35~wow64~sr-latn-rs~" InstalledSize="12889" Version="10.0.19041.1">
+      <SatelliteInfo>
+        <ApplyToInfo>
+          <ApplyTo Type="arch" Value="wow64" />
+          <ApplyTo Type="language" Value="sr-Latn-RS" />
+        </ApplyToInfo>
+      </SatelliteInfo>
+      <Payload>
+        <PayloadItem PayloadHash="kAp0yGsKB2Uk2nIaXanBLS0/fo9RG38w3kmALMjhhZg=" PayloadSize="17161" Path="FeaturesOnDemand\sr-latn-rs\cabs\Microsoft-Windows-RemoteAccess-Management-Tools-FoD-Package~31bf3856ad364e35~wow64~sr-latn-rs~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="Microsoft-Windows-RemoteDesktop-Services-Tools-FoD-Package~31bf3856ad364e35~amd64~sr-latn-rs~" InstalledSize="1497554" Version="10.0.19041.1">
+      <SatelliteInfo>
+        <ApplyToInfo>
+          <ApplyTo Type="language" Value="sr-Latn-RS" />
+        </ApplyToInfo>
+      </SatelliteInfo>
+      <Payload>
+        <PayloadItem PayloadHash="awaiqB6pKF7DMNXH2z9r1bY5Rmo7JRrAMaPUiS1LarE=" PayloadSize="245802" Path="FeaturesOnDemand\sr-latn-rs\cabs\Microsoft-Windows-RemoteDesktop-Services-Tools-FoD-Package~31bf3856ad364e35~amd64~sr-latn-rs~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="Microsoft-Windows-Server-AppCompat-FoD-Package~31bf3856ad364e35~amd64~sr-latn-rs~" InstalledSize="29114794" Version="10.0.19041.1">
+      <SatelliteInfo>
+        <ApplyToInfo>
+          <ApplyTo Type="language" Value="sr-Latn-RS" />
+        </ApplyToInfo>
+      </SatelliteInfo>
+      <Payload>
+        <PayloadItem PayloadHash="CzchDY0JfQO0obZ/HPqNCJGtsJAplEqjZiSWltOn258=" PayloadSize="6931749" Path="FeaturesOnDemand\sr-latn-rs\cabs\Microsoft-Windows-Server-AppCompat-FoD-Package~31bf3856ad364e35~amd64~sr-latn-rs~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~sr-latn-rs~" InstalledSize="10911256" Version="10.0.19041.1">
+      <SatelliteInfo>
+        <ApplyToInfo>
+          <ApplyTo Type="language" Value="sr-Latn-RS" />
+        </ApplyToInfo>
+      </SatelliteInfo>
+      <Payload>
+        <PayloadItem PayloadHash="9c/vx2sxnwZePBwLEu8IaDWzmG6rHw6ZXv0oGULofvM=" PayloadSize="1860045" Path="FeaturesOnDemand\sr-latn-rs\cabs\Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~sr-latn-rs~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~sr-latn-rs~" InstalledSize="1173038" Version="10.0.19041.1">
+      <SatelliteInfo>
+        <ApplyToInfo>
+          <ApplyTo Type="arch" Value="wow64" />
+          <ApplyTo Type="language" Value="sr-Latn-RS" />
+        </ApplyToInfo>
+      </SatelliteInfo>
+      <Payload>
+        <PayloadItem PayloadHash="8vKhG1HvcRi/HEXfiFJfNK7VcTN+qeLqVawiL9J+sZE=" PayloadSize="306226" Path="FeaturesOnDemand\sr-latn-rs\cabs\Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~sr-latn-rs~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="Microsoft-Windows-Shielded-VM-Tools-FoD-Package~31bf3856ad364e35~amd64~sr-latn-rs~" InstalledSize="354832" Version="10.0.19041.1">
+      <SatelliteInfo>
+        <ApplyToInfo>
+          <ApplyTo Type="language" Value="sr-Latn-RS" />
+        </ApplyToInfo>
+      </SatelliteInfo>
+      <Payload>
+        <PayloadItem PayloadHash="SNknLaw4v1kP+yf/cTgajtwVmWVGHXVC/cN7bZ7sdz0=" PayloadSize="92466" Path="FeaturesOnDemand\sr-latn-rs\cabs\Microsoft-Windows-Shielded-VM-Tools-FoD-Package~31bf3856ad364e35~amd64~sr-latn-rs~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="Microsoft-Windows-SNMP-Client-Package~31bf3856ad364e35~amd64~sr-latn-rs~" InstalledSize="121265" Version="10.0.19041.1">
+      <SatelliteInfo>
+        <ApplyToInfo>
+          <ApplyTo Type="language" Value="sr-Latn-RS" />
+        </ApplyToInfo>
+      </SatelliteInfo>
+      <Payload>
+        <PayloadItem PayloadHash="5sWTMhFnCvWXR1YBcsVlayIoFHIGfvGnRTPdZdVBSlU=" PayloadSize="40187" Path="FeaturesOnDemand\sr-latn-rs\cabs\Microsoft-Windows-SNMP-Client-Package~31bf3856ad364e35~amd64~sr-latn-rs~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="Microsoft-Windows-SNMP-Client-Package~31bf385
